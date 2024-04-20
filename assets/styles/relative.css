@@ -1,0 +1,299 @@
+@media only screen and (max-width: 1000px) {
+    .content-row, .menu-row, .footer-row {
+        width: 95%;
+    }
+
+    .radar > form, .radar2 > form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .radar button, .radar2 button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .radar input {
+        width: calc(100% - 31px);
+    }
+
+
+    .radar2 .options {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .radar2 > form > svg {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .footer-media i {
+        padding: 0 7px 0 7px;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+    .menu-right, .menu {
+        display: none;
+    }
+
+    .home-row {
+        margin-top: 70px;
+    }
+
+
+    .copyright {
+        flex-wrap: wrap;
+    }
+
+    .info > .boxes {
+        flex-direction: column;
+    }
+
+    .info > .boxes > .box {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: auto;
+        width: 95%;
+    }
+
+    .menu-father-mobile {
+        display: block !important;
+    }
+
+    .contact-boxes {
+        max-height: 400px;
+    }
+
+
+
+
+
+
+    #menu-hamburger {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        margin-left: 0;
+        margin-top: -5px;
+        width: 35px;
+        height: 35px;
+        z-index: 120;
+    }
+
+
+
+
+    .menu > ol {
+        flex-direction: column;
+        border: 0;
+    }
+
+    .menu > ol > li {
+        border-bottom: 2px solid var(--background-color3);
+        position: relative;
+    }
+
+    .menu > ol > li > a {
+        position: relative;
+        width: calc(100% - 40px);
+        padding: 10px 20px;
+    }
+
+
+    .menu > ol > li > ul {
+        position: relative;
+        max-height: 800px;
+        height: auto;
+        padding-top: 0;
+        padding-left: 27px;
+        padding-right: 13px;
+    }
+
+    .menu > ol > li:hover > ul {
+        flex-wrap: nowrap;
+    }
+
+
+
+    .menu > ol > li > ul > li {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    .menu ol > li > ul > li > a > i {
+        display: block;
+    }
+
+
+
+
+
+
+
+    hr {
+        border: 0;
+        border-top: 1px solid var(--background-color3);
+        margin: 5px 0 5px -2px;
+        height: 0;
+        width: 90%;
+    }
+
+    #toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -2.5px;
+        width: 35px;
+        height: 35px;
+        z-index: 120;
+        margin: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        width: 35px;
+        height: 35px;
+        z-index: 100;
+    }
+
+    .hamburger div {
+        position: relative;
+        width: 35px;
+        height: 5px;
+        background-color: #000;
+        margin-top: 6px;
+        transition: all 0.4s ease-in-out;
+        z-index: 100;
+    }
+
+    #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 20px;
+    }
+
+    #toggle:checked + .hamburger .bottom-bun {
+        transform: rotate(45deg);
+        margin-top: -16px;
+    }
+
+    #toggle:checked + .hamburger .meat {
+        opacity: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    thead {
+        display: none;
+    }
+    .hr-table {
+        display: none;
+    }
+
+    tbody > tr {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    tbody > tr:last-child {
+        border-bottom: 4px solid var(--background-color2);
+    }
+    tbody > tr > td {
+        border: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .footer > ol {
+        flex-direction: column;
+    }
+
+    .footer > ol > li {
+        width: 100%;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
+
+
+    .footer > ol > li > ul > li > select {
+        display: block;
+        width: 300px;
+        font-size: 22px;
+        margin-left: -20px;
+    }
+
+
+    .footer > ol > li > ul > li > select > option {
+        display: block;
+        font-size: 13px;
+        line-height: 15px;
+        color: var(--color2);
+    }
+
+
+
+    .footer-bottom {
+        padding: 8px 30px;
+    }
+
+    .footer-bottom-li {
+        display: block;
+    }
+
+    .copyright {
+        line-height: 10px;
+    }
+
+
+    br {
+        display: none;
+    }
+}
